@@ -14,6 +14,11 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 
  $ cd $ leafpad filename.c & to launch Leafpad
 
+ ![To Open Leafpad](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/5ac9fcc7-2363-4219-ad11-a9aa96f3ba2a)
+
+ PROGRAM:
+ To Find the Sum Of Product
+
 
  
 

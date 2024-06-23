@@ -33,6 +33,11 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 
  To view the assembly code, press. $ filename.o riscv64-unknown-elf-objdump-d ------>A lot of code is provided by $ riscv64-unknown-elf-objdump -d filename.o | less ------->offers Reduced Code/main and a way to view the main purpose of the code.
 
+![ASSEMBLY CODE](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/c44881f9-3afd-4aae-a649-c256e9142ffc)
+
+This facilitates navigation by opening the output in the less editor.
+Using?main, we search for the keyword main.
+
 
 
 

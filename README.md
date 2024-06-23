@@ -23,6 +23,10 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 
  ![PROGRAM](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/094195cd-567e-46d8-9f0e-b532b6093524)
 
+ The Output for the Program
+
+ 
+
 
  
 

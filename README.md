@@ -38,6 +38,10 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 This facilitates navigation by opening the output in the less editor.
 Using?main, we search for the keyword main.
 
+![To Find Out Main](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/bba41f05-53f2-43be-be54-6e88f5021fec)
+
+Guidelines for Analyzing Assembly Code RCV64-unknown-elf-gcc-Ofast -mabi=lp64 -march=rv64i -o filename.o filename.c Use $ riscv64-unknown-elf-objdump -d filename.o | less /main
+
 
 
 

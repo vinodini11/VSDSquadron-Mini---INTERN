@@ -42,6 +42,13 @@ Using?main, we search for the keyword main.
 
 Guidelines for Analyzing Assembly Code RCV64-unknown-elf-gcc-Ofast -mabi=lp64 -march=rv64i -o filename.o filename.c Use $ riscv64-unknown-elf-objdump -d filename.o | less /main
 
+![To command assembly program Ofast](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/17812fb0-9ae1-4a2c-80fb-dd522a90845f)
+
+By utilizing a hexadecimal calculator and deducting the address numbers provided at the leftmost end, let's count the number of instructions that are executed in the main block.
+The primary block of instructions consists of fifteen lines.
+Let's use an alternative approach to the code compilation. -Ofast should be used in place of -O1.
+
+
 
 
 

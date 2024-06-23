@@ -48,6 +48,10 @@ By utilizing a hexadecimal calculator and deducting the address numbers provided
 The primary block of instructions consists of fifteen lines.
 Let's use an alternative approach to the code compilation. -Ofast should be used in place of -O1.
 
+![Output For Ofast Command](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/eab0fb76-989d-43b8-bb8a-ac86beea2342)
+
+As we can see, there are now just 12 instructions, a decrease in the previous number of instructions.
+
 
 
 

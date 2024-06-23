@@ -25,6 +25,12 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 
  The Output for the Program
 
+ ![OUTPUT](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/24adcd66-17ca-454b-8960-3bb998bf0c58)
+
+ Directing the compilation of RISC-V compiler code $rv64-unknown-elf-gcc-O1 -march=rv64i -mabi=lp64o filename.o filename.c $ -ltr filename.o
+
+ 
+
  
  
 

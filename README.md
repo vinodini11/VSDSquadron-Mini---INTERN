@@ -103,11 +103,18 @@ To compile this program with RISC-V GCC, follow these steps:
 
 3.Compile the Program: Use the following command to compile the program With RISC-V GCC.
 
+4.Run the Program: If you have a RISC-V emulator or hardware, you can run the compiled program. For example, using the QEMU emulator:
+
 ![risc v compiler](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/8ef3712c-b363-40f4-83e9-7a61a6c646b7)
 
 Overseeing the RISC-V compiler code compilation $rv64-unknown-elf-gcc-O1 -mabi=lp64o filename.o filename.c -march=rv64i $ -ltr filename.o
 
 ![assem code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/7eca9956-7668-4dc6-8e9f-4392d6b66da9)
+
+![assem2 code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/35420d5f-c3b3-4548-bc35-e8a96b4c155c)
+
+By displaying the result in the less editor, this makes navigating easier. To find the keyword main, we use?main.
+
 
 
 

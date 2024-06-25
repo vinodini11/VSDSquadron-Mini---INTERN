@@ -57,6 +57,19 @@ Let's use an alternative approach to the code compilation. -Ofast should be used
 As we can see, there are now just 12 instructions, a decrease in the previous number of instructions.
 
 
+# TASK 2
+
+o Create a simple C code for the "Crafting a Digital Clock Divider Circuit" project, then use the RISC-V compiler to analyze assembly code instructions.
+
+A circuit known as a clock cycle divider receives an input clock signal and outputs a clock signal with a frequency that is a fraction of the input frequency. This is frequently used to lower the clock signal frequency for different components in digital circuitry.
+
+TO create a simple clock cycle divider using a C program that can be compiled with RISC-V GCC, we will simulate the functionality of a digital clock divider circuit in software. This will involve a basic loop that simulates dividing a clock signal by counting cycles.
+
+
+
+
+
+
 
 
 

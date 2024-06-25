@@ -71,6 +71,30 @@ TO create a simple clock cycle divider using a C program that can be compiled wi
 
 Here is a simple C program that demonstrates this concept:
 
+![clock divider program](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/9fa6ee1f-3635-4963-943e-063467305f87)
+
+# EXPLANATION:
+
+1. clock_divider function:
+
+  Takes two parameters: divisor (the factor by which to divide the clock) and cycles (the number of clock cycles to simulate).
+  Uses a counter to keep track of the number of cycles.
+  Toggles the divided_clock signal whenever the counter reaches the divisor.
+
+2. main function:
+
+  Sets the divisor and cycles values.
+  Calls the clock_divider function to perform the simulation.
+  Prints out the state of the divided clock signal for each cycle.
+
+# OUTPUT:
+
+The Output for the program is:
+
+
+
+
+
 
 
 

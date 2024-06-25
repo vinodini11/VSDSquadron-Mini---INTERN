@@ -1,10 +1,12 @@
-# VSDSquadron Mini-INTERN (TASK 1)
+# VSDSquadron Mini-INTERN
 
-DESCRIPTION:
+# TASK 1
+
+# DESCRIPTION:
 
 A development board for RISC-V is the vsdsquadron mini. A 32-bit RISC-V core resides within it. It runs on a 24MHz frequency and contains 16KB of flash memory and 2KB of SRAM. Supporting protocols including SPI, USART, and I2C, the board contains fifteen GPIO pins.
 
-PROCESS:
+# PROCESS:
 
 The tasks at hand include installing Ubuntu on VMBox, Visual C++, and writing an example of C code along with analyzing RISC assembly code for the sample C code. These are the essential programs for this internship.
 
@@ -17,14 +19,15 @@ Order for Installation of Leafpad apt-get install leafpad $ sudo
 
  ![To Open Leafpad](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/5ac9fcc7-2363-4219-ad11-a9aa96f3ba2a)
 
- PROGRAM:
+ # PROGRAM:
  To Find the Sum Of Product
 
  ![TO FIND THE SUM PROGRAM](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/340df625-8b93-41f0-9fc6-7dbd6e40cea2)
 
  ![PROGRAM](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/094195cd-567e-46d8-9f0e-b532b6093524)
 
- The Output for the Program
+ # OUTPUT:
+ The Output for the program is
 
  ![OUTPUT](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/24adcd66-17ca-454b-8960-3bb998bf0c58)
 
@@ -52,6 +55,7 @@ Let's use an alternative approach to the code compilation. -Ofast should be used
 ![Output For Ofast Command](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/eab0fb76-989d-43b8-bb8a-ac86beea2342)
 
 As we can see, there are now just 12 instructions, a decrease in the previous number of instructions.
+
 
 
 

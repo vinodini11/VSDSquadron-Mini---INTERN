@@ -103,6 +103,13 @@ To compile this program with RISC-V GCC, follow these steps:
 
 3.Compile the Program: Use the following command to compile the program With RISC-V GCC.
 
+![risc v compiler](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/8ef3712c-b363-40f4-83e9-7a61a6c646b7)
+
+Overseeing the RISC-V compiler code compilation $rv64-unknown-elf-gcc-O1 -mabi=lp64o filename.o filename.c -march=rv64i $ -ltr filename.o
+
+
+
+
 
 
 

@@ -63,7 +63,7 @@ o Create a simple C code for the "Crafting a Digital Clock Divider Circuit" proj
 
 A circuit known as a clock cycle divider receives an input clock signal and outputs a clock signal with a frequency that is a fraction of the input frequency. This is frequently used to lower the clock signal frequency for different components in digital circuitry.
 
-TO create a simple clock cycle divider using a C program that can be compiled with RISC-V GCC, we will simulate the functionality of a digital clock divider circuit in software. This will involve a basic loop that simulates dividing a clock signal by counting cycles.
+To create a simple clock cycle divider using a C program that can be compiled with RISC-V GCC, we will simulate the functionality of a digital clock divider circuit in software. This will involve a basic loop that simulates dividing a clock signal by counting cycles.
 
 ![leaf pad](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/ee863b93-0174-4ee2-acff-7b266513848d)
 
@@ -89,7 +89,22 @@ Here is a simple C program that demonstrates this concept:
 
 # OUTPUT:
 
-The Output for the program is:
+The Output for the program is
+
+![clock divider output](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/13a3ae98-1e68-4b4a-903b-0d496485c281)
+
+# Compilation with RISC-V GCC:
+
+To compile this program with RISC-V GCC, follow these steps:
+
+1.Install RISC-V GCC: Make sure you have the RISC-V GCC toolchain installed. You can download and install it from the official RISC-V website or use a package manager if available.
+
+2.Save the Program: Save the above code to a file named clock_divider.c.
+
+3.Compile the Program: Use the following command to compile the program With RISC-V GCC.
+
+
+
 
 
 

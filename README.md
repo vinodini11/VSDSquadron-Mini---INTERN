@@ -65,6 +65,14 @@ A circuit known as a clock cycle divider receives an input clock signal and outp
 
 TO create a simple clock cycle divider using a C program that can be compiled with RISC-V GCC, we will simulate the functionality of a digital clock divider circuit in software. This will involve a basic loop that simulates dividing a clock signal by counting cycles.
 
+![leaf pad](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/ee863b93-0174-4ee2-acff-7b266513848d)
+
+# PROGRAM:
+
+Here is a simple C program that demonstrates this concept:
+
+
+
 
 
 

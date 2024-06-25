@@ -119,6 +119,10 @@ By displaying the result in the less editor, this makes navigating easier. To fi
 
 RCV64-unknown-elf-gcc-Ofast -mabi=lp64 -march=rv64i -o filename.o filename are the guidelines for analyzing assembly code.b Employ $ riscv64-unknown-elf-objdump -d filename.o | less /main
 
+![Ofast 2](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/97e1425f-565e-4f26-bd93-cf7b47175bfb)
+
+We will tally the number of instructions that are carried out in the main block by using a hexadecimal calculator and subtracting the address numbers given at the left end. There are fifteen lines in the main block of instructions. Let's take a different method with the code compilation. -Ofast ought to be utilized rather than -O1.
+
 
 
 

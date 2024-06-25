@@ -107,6 +107,9 @@ To compile this program with RISC-V GCC, follow these steps:
 
 Overseeing the RISC-V compiler code compilation $rv64-unknown-elf-gcc-O1 -mabi=lp64o filename.o filename.c -march=rv64i $ -ltr filename.o
 
+![assem code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/7eca9956-7668-4dc6-8e9f-4392d6b66da9)
+
+
 
 
 

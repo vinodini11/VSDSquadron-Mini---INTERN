@@ -1,4 +1,6 @@
 # VSDSquadron Mini-INTERN
+#TASK 1
+
 DESCRIPTION:
 
 A development board for RISC-V is the vsdsquadron mini. A 32-bit RISC-V core resides within it. It runs on a 24MHz frequency and contains 16KB of flash memory and 2KB of SRAM. Supporting protocols including SPI, USART, and I2C, the board contains fifteen GPIO pins.

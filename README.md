@@ -123,6 +123,14 @@ RCV64-unknown-elf-gcc-Ofast -mabi=lp64 -march=rv64i -o filename.o filename are t
 
 We will tally the number of instructions that are carried out in the main block by using a hexadecimal calculator and subtracting the address numbers given at the left end. There are fifteen lines in the main block of instructions. Let's take a different method with the code compilation. -Ofast ought to be utilized rather than -O1.
 
+![final output](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/c692c601-9f40-44e0-b6b4-40e6a84a7d81)
+
+Simulation: This program simulates a clock divider in software. In a real hardware implementation, you would use a hardware description language (HDL) like Verilog or VHDL to design the clock divider circuit.
+
+Flexibility: You can change the divisor and cycles values to simulate different clock division scenarios.
+
+Environment: The instructions assume a development environment set up for RISC-V-cross-compilation.
+
 
 
 

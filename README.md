@@ -115,6 +115,11 @@ Overseeing the RISC-V compiler code compilation $rv64-unknown-elf-gcc-O1 -mabi=l
 
 By displaying the result in the less editor, this makes navigating easier. To find the keyword main, we use?main.
 
+![Ofast](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/ad8f7181-1939-4949-b475-bdb70f1bf118)
+
+RCV64-unknown-elf-gcc-Ofast -mabi=lp64 -march=rv64i -o filename.o filename are the guidelines for analyzing assembly code.b Employ $ riscv64-unknown-elf-objdump -d filename.o | less /main
+
+
 
 
 

@@ -1,5 +1,4 @@
-# VSDSquadron Mini-INTERN
-#TASK 1
+# VSDSquadron Mini-INTERN (TASK 1)
 
 DESCRIPTION:
 

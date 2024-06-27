@@ -146,6 +146,12 @@ We must use the (-o1) and (-ofast) commands to watch Spike Simulation in this wo
 
 The C code may be proved to function on both a kit and a chip by compiling it in both RISCV and GCC. The clock divider's overall reliability and performance are improved by accurately implementing the project's C code, cutting down on development time, and minimizing human error through the use of an AI tool that generates the clock divided output.
 
+![Spike simulation](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/9a8c5e06-f0da-40fb-822b-9cac3c9834c3)
+
+Using a new tab, open your project's assembly code and type the following command to inspect it before beginning debugging.
+
+$ riscv64-unknown-elf-objdump -d clkdiv.o | less
+
 
 
 

@@ -160,6 +160,11 @@ $ spike -d pk clkdiv.o
 
 (spike) //
 
+![output (2)](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/1f880267-979b-48dd-9253-71122a9619b7)
+
+To input a command that will cause all instructions preceding that address to be run in order to debug the instruction that has to be done.
+
+
 
 
 

@@ -1,5 +1,10 @@
 # VSDSquadron Mini-INTERN
 
+# Overview:
+     1.TASK 1
+     2.TASK 2
+     3.TASK 3
+
 # TASK 1
 
 # DESCRIPTION:
@@ -130,6 +135,17 @@ Simulation: This program simulates a clock divider in software. In a real hardwa
 Flexibility: You can change the divisor and cycles values to simulate different clock division scenarios.
 
 Environment: The instructions assume a development environment set up for RISC-V-cross-compilation.
+
+
+# TASK 3
+
+Run the RISC-V Objdmp in conjunction with SPIKE Simulation and Verification using -O1 and -Ofast.
+
+
+We must use the (-o1) and (-ofast) commands to watch Spike Simulation in this work.
+
+The C code may be proved to function on both a kit and a chip by compiling it in both RISCV and GCC. The clock divider's overall reliability and performance are improved by accurately implementing the project's C code, cutting down on development time, and minimizing human error through the use of an AI tool that generates the clock divided output.
+
 
 
 

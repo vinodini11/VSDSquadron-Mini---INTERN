@@ -164,6 +164,12 @@ $ spike -d pk clkdiv.o
 
 To input a command that will cause all instructions preceding that address to be run in order to debug the instruction that has to be done.
 
+![output 3](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/b1bd2653-8955-4ed8-95ac-c97794b924cf)
+
+The contents of the stack pointer can also be seen as indicated below, both before and after that instruction is executed.To see the next important instruction, keep hitting ENTER in a same manner.
+
+
+
 
 
 

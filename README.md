@@ -152,6 +152,14 @@ Using a new tab, open your project's assembly code and type the following comman
 
 $ riscv64-unknown-elf-objdump -d clkdiv.o | less
 
+![debug](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/0605560e-87da-48c7-986f-c82dbb6fec35)
+
+Enter the following command as indicated to begin debugging the assembly code.
+
+$ spike -d pk clkdiv.o
+
+(spike) //
+
 
 
 

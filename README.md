@@ -168,6 +168,9 @@ To input a command that will cause all instructions preceding that address to be
 
 The contents of the stack pointer can also be seen as indicated below, both before and after that instruction is executed.To see the next important instruction, keep hitting ENTER in a same manner.
 
+![final op](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/fc2c3abe-78a0-49c6-acf4-1c40bcf6fd19)
+
+
 
 
 

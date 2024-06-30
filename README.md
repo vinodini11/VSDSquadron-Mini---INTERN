@@ -308,7 +308,7 @@ To provide you with the exact 32-bit instruction codes for each of the given RIS
 
 
 ```plaintext
-### RISC-V 32-bit Instruction Codes
+ # RISC-V 32-bit Instruction Codes
 
 ADD r6, r2, r1: 0000000 00010 00001 000 00110 0110011
 SUB r7, r1, r2: 0100000 00010 00001 000 00111 0110011

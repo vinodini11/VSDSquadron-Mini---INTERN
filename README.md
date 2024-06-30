@@ -170,6 +170,162 @@ The contents of the stack pointer can also be seen as indicated below, both befo
 
 ![final op](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/fc2c3abe-78a0-49c6-acf4-1c40bcf6fd19)
 
+# TASK 4
+
+**Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions**
+
+**ADD r6, r2, r1 SUB r7, r1, r2 AND r8, r1, r3 OR r9, r2, r5 XOR r10, r1, r4 SLT r11, r2, r4 ADDI r12, r4, 5 SW r3, r1, 2 SRL r16, r14, r2 BNE r0, r1, 20 BEQ r0, r0, 15 LW r13, r1, 2 SLL r15, r1, r2**
+
+**Upload the 32-bit pattern on Github**
+
+To provide you with the exact 32-bit instruction codes for each of the given RISC-V instructions, let's break down each instruction into its respective components and then determine the 32-bit machine code based on the RISC-V instruction format.
+
+### R-Type Instructions
+
+1. **ADD r6, r2, r1**
+   - opcode: `0110011`
+   - funct3: `000`
+   - funct7: `0000000`
+   - rs1: `r1` (00001)
+   - rs2: `r2` (00010)
+   - rd: `r6` (00110)
+   - Machine Code: `0000000 00010 00001 000 00110 0110011`
+
+2. **SUB r7, r1, r2**
+   - opcode: `0110011`
+   - funct3: `000`
+   - funct7: `0100000`
+   - rs1: `r1` (00001)
+   - rs2: `r2` (00010)
+   - rd: `r7` (00111)
+   - Machine Code: `0100000 00010 00001 000 00111 0110011`
+
+3. **AND r8, r1, r3**
+   - opcode: `0110011`
+   - funct3: `111`
+   - funct7: `0000000`
+   - rs1: `r1` (00001)
+   - rs2: `r3` (00011)
+   - rd: `r8` (01000)
+   - Machine Code: `0000000 00011 00001 111 01000 0110011`
+
+4. **OR r9, r2, r5**
+   - opcode: `0110011`
+   - funct3: `110`
+   - funct7: `0000000`
+   - rs1: `r2` (00010)
+   - rs2: `r5` (00101)
+   - rd: `r9` (01001)
+   - Machine Code: `0000000 00101 00010 110 01001 0110011`
+
+5. **XOR r10, r1, r4**
+   - opcode: `0110011`
+   - funct3: `100`
+   - funct7: `0000000`
+   - rs1: `r1` (00001)
+   - rs2: `r4` (00100)
+   - rd: `r10` (01010)
+   - Machine Code: `0000000 00100 00001 100 01010 0110011`
+
+6. **SLT r11, r2, r4**
+   - opcode: `0110011`
+   - funct3: `010`
+   - funct7: `0000000`
+   - rs1: `r2` (00010)
+   - rs2: `r4` (00100)
+   - rd: `r11` (01011)
+   - Machine Code: `0000000 00100 00010 010 01011 0110011`
+
+### I-Type Instructions
+
+1. **ADDI r12, r4, 5**
+   - opcode: `0010011`
+   - funct3: `000`
+   - rs1: `r4` (00100)
+   - rd: `r12` (01100)
+   - imm: `000000000101`
+   - Machine Code: `000000000101 00100 000 01100 0010011`
+
+2. **LW r13, r1, 2**
+   - opcode: `0000011`
+   - funct3: `010`
+   - rs1: `r1` (00001)
+   - rd: `r13` (01101)
+   - imm: `000000000010`
+   - Machine Code: `000000000010 00001 010 01101 0000011`
+
+### S-Type Instructions
+
+1. **SW r3, r1, 2**
+   - opcode: `0100011`
+   - funct3: `010`
+   - rs1: `r1` (00001)
+   - rs2: `r3` (00011)
+   - imm: `000000000010`
+   - Machine Code: `0000000 00011 00001 010 00010 0100011`
+
+### B-Type Instructions
+
+1. **BNE r0, r1, 20**
+   - opcode: `1100011`
+   - funct3: `001`
+   - rs1: `r0` (00000)
+   - rs2: `r1` (00001)
+   - imm: `000000010100` (20)
+   - Machine Code: `0000000 00001 00000 001 01000 1100011`
+
+2. **BEQ r0, r0, 15**
+   - opcode: `1100011`
+   - funct3: `000`
+   - rs1: `r0` (00000)
+   - rs2: `r0` (00000)
+   - imm: `000000001111` (15)
+   - Machine Code: `0000000 00000 00000 000 01111 1100011`
+
+### R-Type Instructions (continued)
+
+1. **SRL r16, r14, r2**
+   - opcode: `0110011`
+   - funct3: `101`
+   - funct7: `0000000`
+   - rs1: `r14` (01110)
+   - rs2: `r2` (00010)
+   - rd: `r16` (10000)
+   - Machine Code: `0000000 00010 01110 101 10000 0110011`
+
+2. **SLL r15, r1, r2**
+   - opcode: `0110011`
+   - funct3: `001`
+   - funct7: `0000000`
+   - rs1: `r1` (00001)
+   - rs2: `r2` (00010)
+   - rd: `r15` (01111)
+   - Machine Code: `0000000 00010 00001 001 01111 0110011`
+
+
+
+```plaintext
+# RISC-V 32-bit Instruction Codes
+
+ADD r6, r2, r1: 0000000 00010 00001 000 00110 0110011
+SUB r7, r1, r2: 0100000 00010 00001 000 00111 0110011
+AND r8, r1, r3: 0000000 00011 00001 111 01000 0110011
+OR r9, r2, r5: 0000000 00101 00010 110 01001 0110011
+XOR r10, r1, r4: 0000000 00100 00001 100 01010 0110011
+SLT r11, r2, r4: 0000000 00100 00010 010 01011 0110011
+ADDI r12, r4, 5: 000000000101 00100 000 01100 0010011
+SW r3, r1, 2: 0000000 00011 00001 010 00010 0100011
+SRL r16, r14, r2: 0000000 00010 01110 101 10000 0110011
+BNE r0, r1, 20: 0000000 00001 00000 001 01000 1100011
+BEQ r0, r0, 15: 0000000 00000 00000 000 01111 1100011
+LW r13, r1, 2: 000000000010 00001 010 01101 0000011
+SLL r15, r1, r2: 0000000 00010 00001 001 01111 0110011
+```
+
+
+
+
+
 
 
 

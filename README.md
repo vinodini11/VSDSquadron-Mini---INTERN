@@ -403,6 +403,12 @@ Analyzing the Waveform,
 
 **SLT:**
 
+![SLT](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/025b98e6-1d3c-4a96-ad6f-6d09d2cbb6d3)
+
+**BEQ:**
+
+
+
 
 
 

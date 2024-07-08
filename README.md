@@ -336,6 +336,17 @@ Initially, create a copy of the repository holding the Verilog testbench and net
 
       $ git clone https://github.com/vinayrayapati/rv32i.git my_riscv_project
       $ cd vino_project
+
+ ![clone](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/bd9e31d8-a732-4531-9a4e-5d13c586a449)
+
+ Setting Up GTKWave and Iverilog as Simulation Tools.
+ To simulate Verilog and examine waveforms, install Icarus Verilog and GTKWave.
+ Utilizing a text editor, open the testbench file.
+
+ 
+ 
+
+
       
       
 

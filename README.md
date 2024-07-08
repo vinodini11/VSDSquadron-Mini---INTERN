@@ -370,6 +370,11 @@ Analyzing the Waveform,
 
  **CLK**
 
+ ![CLK](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/8cff68fd-3fb4-4b92-a41c-d76cd6d366a3)
+
+
+**ADD**
+
  
 
         

@@ -326,6 +326,20 @@ SLL r15, r1, r2: 0000000 00010 00001 001 01111 0110011
 ```
 
 
+# TASK 5
+
+**Use this RISC-V Core Verilog netlist and testbench for functional simulation experiment.**
+
+### PROCESS:
+
+Initially, create a copy of the repository holding the Verilog testbench and netlist:
+
+      $ git clone https://github.com/vinayrayapati/rv32i.git my_riscv_project
+      $ cd vino_project
+      
+      
+
+
 
 
 

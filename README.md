@@ -375,6 +375,13 @@ Analyzing the Waveform,
 
 **ADD**
 
+![ADD](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/06ef9034-7428-4305-8df2-d412420ba2b9)
+
+
+**ADDI**
+
+
+
  
 
         

@@ -159,9 +159,8 @@ $ riscv64-unknown-elf-objdump -d clkdiv.o | less
 
 Enter the following command as indicated to begin debugging the assembly code.
 
-$ spike -d pk clkdiv.o
-
-(spike) //
+    $ spike -d pk clkdiv.o
+    (spike) //
 
 ![output (2)](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/1f880267-979b-48dd-9253-71122a9619b7)
 
@@ -341,11 +340,27 @@ Initially, create a copy of the repository holding the Verilog testbench and net
 
  Setting Up GTKWave and Iverilog as Simulation Tools.
  To simulate Verilog and examine waveforms, install Icarus Verilog and GTKWave.
- Utilizing a text editor, open the testbench file.
 
  ![nano code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/c00e55d7-dfcb-4092-884b-5d53b7a143ca)
 
+ Utilizing a text editor, open the testbench file.
+
        $ nano iiitb_rv32i_tb.v
+
+ Press "Ctrl+x" to release the command after executing it above, then examine the testbench.
+
+![gtk code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/070cc3fb-6354-4775-b0ee-058074dafe78)
+
+Check to see if waveforms are being dumped into a.vcd file by your testbench. This is an example of how your testbench could be set up in the most simplest way.
+
+For the Functional Simulation to be executed.
+
+       $ iverilog -o rv32i_simulation iiitb_rv32i.v iiitb_rv32i_tb.v
+       $ vvp rv32i_simulation
+
+Analyzing the Waveform,
+
+       $ gtkwave simulation.vcd
 
         
 

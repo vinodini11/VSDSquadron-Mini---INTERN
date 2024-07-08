@@ -362,6 +362,16 @@ Analyzing the Waveform,
 
        $ gtkwave simulation.vcd
 
+ ![final gtk](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/ebc21bd7-f0d1-4fd2-a531-11a770fd1d3d)
+
+ As seen below, the waves will be visible on your screen.
+
+ ### OUTPUT:
+
+ **CLK**
+
+ 
+
         
 
  

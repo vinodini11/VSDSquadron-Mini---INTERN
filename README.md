@@ -373,12 +373,21 @@ Analyzing the Waveform,
  ![CLK](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/8cff68fd-3fb4-4b92-a41c-d76cd6d366a3)
 
 
-**ADD**
+**ADD:**
 
 ![ADD](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/06ef9034-7428-4305-8df2-d412420ba2b9)
 
 
-**ADDI**
+**ADDI:**
+
+![ADDI](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/7f64a261-2de5-46be-8123-a05b5f74c587)
+
+
+**SUB:**
+
+
+
+
 
 
 

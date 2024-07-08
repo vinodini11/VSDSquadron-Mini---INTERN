@@ -343,6 +343,12 @@ Initially, create a copy of the repository holding the Verilog testbench and net
  To simulate Verilog and examine waveforms, install Icarus Verilog and GTKWave.
  Utilizing a text editor, open the testbench file.
 
+ ![nano code](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/c00e55d7-dfcb-4092-884b-5d53b7a143ca)
+
+       $ nano iiitb_rv32i_tb.v
+
+        
+
  
  
 

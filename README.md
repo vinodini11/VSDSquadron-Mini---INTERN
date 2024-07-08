@@ -390,6 +390,13 @@ Analyzing the Waveform,
 
 **AND:**
 
+![AND](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/77cb83ec-0ebb-47d4-a291-9653b9591fd0)
+
+
+**OR:**
+
+
+
 
 
 

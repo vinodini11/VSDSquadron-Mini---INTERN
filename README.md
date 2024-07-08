@@ -6,6 +6,7 @@
      TASK 2
      TASK 3
      TASK 4
+     TASK 5
      
 
 # TASK 1
@@ -368,7 +369,7 @@ Analyzing the Waveform,
 
  ### OUTPUT:
 
- **CLK**
+ **CLK:**
 
  ![CLK](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/8cff68fd-3fb4-4b92-a41c-d76cd6d366a3)
 
@@ -397,15 +398,20 @@ Analyzing the Waveform,
 
 ![OR](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/37d5fa20-6baf-4341-9667-38cb2dbad2de)
 
+
 **XOR:**
 
 ![XOR](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/2cebc0ac-fb3f-4f25-ba98-d5e17d34801c)
+
 
 **SLT:**
 
 ![SLT](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/025b98e6-1d3c-4a96-ad6f-6d09d2cbb6d3)
 
+
 **BEQ:**
+
+![BEQ](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/e78741a3-4add-4f0c-8581-34177e7b47fa)
 
 
 

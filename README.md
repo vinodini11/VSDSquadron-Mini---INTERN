@@ -385,6 +385,16 @@ Analyzing the Waveform,
 
 **SUB:**
 
+![SUB](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/ceb7699a-d0ab-4248-8b7d-4c1cda5bc0c2)
+
+
+**AND:**
+
+
+
+
+
+
 
 
 

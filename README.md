@@ -397,7 +397,14 @@ Analyzing the Waveform,
 
 ![OR](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/37d5fa20-6baf-4341-9667-38cb2dbad2de)
 
-**xor:**
+**XOR:**
+
+![XOR](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/2cebc0ac-fb3f-4f25-ba98-d5e17d34801c)
+
+**SLT:**
+
+
+
 
 
 

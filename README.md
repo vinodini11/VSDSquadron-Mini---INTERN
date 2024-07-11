@@ -7,6 +7,7 @@
      TASK 3
      TASK 4
      TASK 5
+     TASK 6
      
 
 # TASK 1
@@ -412,6 +413,151 @@ Analyzing the Waveform,
 **BEQ:**
 
 ![BEQ](https://github.com/vinodini11/VSDSquadron-Mini-INTERN/assets/173384059/e78741a3-4add-4f0c-8581-34177e7b47fa)
+
+
+# TASK 6
+
+**To Demonstrate a  Clock Cycle divider: Crafting a digital clock divider circuit project with overview, components required, circuit connection, pinout diagram, table for pin connection, how to program, working and code.**
+
+Creating a digital clock divider circuit is a fundamental project in digital electronics. It is useful for reducing a high-frequency clock signal to a lower frequency. Here's an overview of how to create such a project, including the components, circuit connection, pinout diagram, programming, and working.
+
+## Overview
+
+A clock divider circuit takes an input clock signal and produces an output clock signal with a frequency that is a fraction of the input clock frequency. This is achieved by using flip-flops, counters, or microcontrollers.
+
+## Components Required
+
+1. **555 Timer IC** (optional, if you need to generate the clock signal)
+2. **74HC4020** 14-stage binary ripple counter or **74LS90** Decade Counter
+3. **Crystal Oscillator** (optional, for precise clock generation)
+4. **Capacitors** and **Resistors** (as required for the 555 timer or oscillator)
+5. **Breadboard** or **PCB**
+6. **Connecting Wires**
+7. **Power Supply** (typically 5V for TTL logic)
+8. **Microcontroller** (e.g., Arduino, if you want to use software for division)
+
+## Circuit Connection
+
+### Using 74HC4020
+
+1. **Connect Power Supply:**
+   - Vcc to +5V
+   - GND to Ground
+
+2. **Input Clock Signal:**
+   - Connect the input clock signal to the Clock Input (pin 10)
+
+3. **Divide-by-2 Output:**
+   - Connect a wire from Q1 (pin 9) to your desired output location
+
+4. **Divide-by-4 Output:**
+   - Connect a wire from Q2 (pin 7) to your desired output location
+
+5. **Continue similarly for other outputs:**
+   - Q3 (pin 6), Q4 (pin 5), and so on, depending on the division ratio required
+
+### Using 74LS90
+
+1. **Connect Power Supply:**
+   - Vcc to +5V
+   - GND to Ground
+
+2. **Input Clock Signal:**
+   - Connect the input clock signal to Clock A (pin 14) if using the A counter for division by 2 or 10
+   - Connect the input clock signal to Clock B (pin 1) if using the B counter for division by 6
+
+3. **Divide-by-2 Output:**
+   - Connect a wire from QA (pin 12) to your desired output location
+
+4. **Divide-by-5 Output:**
+   - Connect a wire from QD (pin 11) to your desired output location
+
+### Pinout Diagram
+
+**74HC4020:**
+
+```
+       __ __
+ 1  |        | 16
+ 2  |        | 15
+ 3  |        | 14
+ 4  |        | 13
+ 5  |        | 12
+ 6  |        | 11
+ 7  |        | 10  Clock Input
+ 8  | GND    | 9   Q1
+```
+
+**74LS90:**
+
+```
+       __ __
+ 1  |        | 14 Clock A
+ 2  |        | 13
+ 3  |        | 12 QA
+ 4  |        | 11 QD
+ 5  |        | 10
+ 6  |        | 9
+ 7  | GND    | 8  Vcc
+```
+
+### Table for Pin Connection
+
+| Component  | Pin      | Connection          |
+|------------|----------|---------------------|
+| 74HC4020   | 10       | Clock Input         |
+| 74HC4020   | 9        | Q1 (Divide by 2)    |
+| 74HC4020   | 7        | Q2 (Divide by 4)    |
+| 74HC4020   | 6        | Q3 (Divide by 8)    |
+| 74HC4020   | 5        | Q4 (Divide by 16)   |
+| 74HC4020   | Vcc      | +5V                 |
+| 74HC4020   | GND      | Ground              |
+| 74LS90     | 14       | Clock Input         |
+| 74LS90     | 12       | QA (Divide by 2)    |
+| 74LS90     | 11       | QD (Divide by 10)   |
+| 74LS90     | Vcc      | +5V                 |
+| 74LS90     | GND      | Ground              |
+
+## How to Program (if using a microcontroller)
+
+If using a microcontroller like Arduino for a programmable clock divider, you can write a simple program to toggle an output pin at a divided frequency.
+
+### Code Example for Arduino
+
+```cpp
+const int inputClockPin = 2; // Pin connected to the input clock signal
+const int outputClockPin = 3; // Pin where the divided clock signal will be output
+const int divideBy = 4; // Division factor
+
+volatile int counter = 0;
+
+void setup() {
+  pinMode(inputClockPin, INPUT);
+  pinMode(outputClockPin, OUTPUT);
+  attachInterrupt(digitalPinToInterrupt(inputClockPin), divideClock, RISING);
+}
+
+void loop() {
+  // Main loop does nothing, clock division handled in ISR
+}
+
+void divideClock() {
+  counter++;
+  if (counter >= divideBy) {
+    digitalWrite(outputClockPin, !digitalRead(outputClockPin));
+    counter = 0;
+  }
+}
+```
+
+### Working
+
+1. **Clock Signal Input:** The input clock signal is fed into the clock divider circuit.
+2. **Division Mechanism:** Depending on the components used (74HC4020 or 74LS90), the circuit divides the frequency by the specified factor.
+3. **Output Signal:** The output signal, with a reduced frequency, is available at the designated output pins (Q1, Q2, QA, etc.).
+4. **Microcontroller:** If using an Arduino, an interrupt service routine (ISR) toggles an output pin based on the division factor, effectively reducing the frequency.
+
+By following these steps and using the provided code, we can create a functional clock divider circuit.
 
 
 

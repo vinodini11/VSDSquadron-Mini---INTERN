@@ -560,6 +560,9 @@ void divideClock() {
 By following these steps and using the provided code, we can create a functional clock divider circuit.
 
 
+https://drive.google.com/file/d/1Cm8B83jsCHoKjkQ1XBMnzA_h7qSgK20Y/view?usp=drivesdk
+
+
 
 
 

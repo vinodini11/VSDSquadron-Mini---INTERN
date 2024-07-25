@@ -522,33 +522,46 @@ A clock divider circuit takes an input clock signal and produces an output clock
 
 If using a microcontroller like Arduino for a programmable clock divider, you can write a simple program to toggle an output pin at a divided frequency.
 
-### Code Example for Arduino
+### Code Example
 
-```cpp
-const int inputClockPin = 2; // Pin connected to the input clock signal
-const int outputClockPin = 3; // Pin where the divided clock signal will be output
-const int divideBy = 4; // Division factor
+.section .data
+divider: .word 4   # Divide by 4, change as needed
 
-volatile int counter = 0;
+.section .text
+.globl _start
 
-void setup() {
-  pinMode(inputClockPin, INPUT);
-  pinMode(outputClockPin, OUTPUT);
-  attachInterrupt(digitalPinToInterrupt(inputClockPin), divideClock, RISING);
-}
+_start:
+    # Load the divider value
+    la t0, divider
+    lw t1, 0(t0)
+    
+    # Initialize the counter
+    li t2, 0
+    
+loop:
+    # Increment the counter
+    addi t2, t2, 1
+    
+    # Compare counter with divider
+    bge t2, t1, divide_clock
+    
+    # Continue looping
+    j loop
 
-void loop() {
-  // Main loop does nothing, clock division handled in ISR
-}
+divide_clock:
+    # Toggle the clock (here represented as printing a message)
+    li a7, 1         # syscall number for print
+    li a0, 42        # 'clock tick' value to print
+    ecall            # Make syscall
+    
+    # Reset the counter
+    li t2, 0
+    
+    # Continue looping
+    j loop
 
-void divideClock() {
-  counter++;
-  if (counter >= divideBy) {
-    digitalWrite(outputClockPin, !digitalRead(outputClockPin));
-    counter = 0;
-  }
-}
-```
+
+
 
 ### Working
 
@@ -559,8 +572,6 @@ void divideClock() {
 
 By following these steps and using the provided code, we can create a functional clock divider circuit.
 
-
-https://drive.google.com/file/d/1Cm8B83jsCHoKjkQ1XBMnzA_h7qSgK20Y/view?usp=drivesdk
 
 
 

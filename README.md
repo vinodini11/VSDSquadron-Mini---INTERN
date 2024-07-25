@@ -572,6 +572,8 @@ divide_clock:
 
 By following these steps and using the provided code, we can create a functional clock divider circuit.
 
+https://drive.google.com/file/d/1CuszfosTkbaM-P0wq5HiWRD1fXxjsi88/view?usp=drivesdk
+
 
 
 
